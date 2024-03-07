@@ -8,7 +8,7 @@ interface Story {
   createStory(): void;
 }
 
-class Instagram implements TakePhoto {
+class Instagram23 implements TakePhoto {
   constructor(
     public cameraMode: string,
     public filter: string,
@@ -16,7 +16,7 @@ class Instagram implements TakePhoto {
   ) {}
 }
 
-class SnapChat implements TakePhoto, Story {
+class SnapChat2 implements TakePhoto, Story {
   constructor(
     public cameraMode: string,
     public filter: string,
